@@ -22,6 +22,8 @@ Además de Laravel 12, Filament 3.3 y Livewire 3.6
 ## Credenciales admin de prueba en Filament
 - Correo: `admin@mail.com`
 - Contraseña: `123456789`
+
+## Imágenes
 ![Credenciales](https://github.com/copgADSI/prueba-laravel-filament-livewire/blob/main/public/images/login-admin.png)
 
 ![Test](https://github.com/copgADSI/prueba-laravel-filament-livewire/blob/main/public/images/test.png?raw=true)
