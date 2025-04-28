@@ -26,7 +26,6 @@
         </div>
     @endif
   
-
     <div  x-data="{ open: false }"
          x-show="open"
          x-on:open-modal.window="open = true"
@@ -38,7 +37,7 @@
             @if ($selectedProduct)
                 <h2 class="text-xl font-bold mb-2">{{ $selectedProduct->name }}</h2>
                 <p><strong>Categoría:</strong> {{ $selectedProduct->category->name }}</p>
-                <p><strong>Descripción:</strong> {{ $selectedProduct->description }}</p>
+                <p><strong>Descripción:</strong> {!! $selectedProduct->description !!}</p>
                 <p><strong>Stock:</strong> {{ $selectedProduct->stock }}</p>
             @endif
             <button @click="open = false"
