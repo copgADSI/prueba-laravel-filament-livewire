@@ -19,7 +19,7 @@ Además de Laravel 12, Filament 3.3 y Livewire 3.6
 - Para ejecutar el servidor: `php artisan serve`
 - Para ejecutar el servidor en modo desarrollo: `npm run dev`
 
-## Credenciales admin de prueba en Filament
+## Credenciales admin de prueba en Filament (ejemplo http://127.0.0.1:8000/y/products)
 - Correo: `admin@mail.com`
 - Contraseña: `123456789`
 
