@@ -18,7 +18,7 @@ class PublicProducts extends Component
     public function render()
     {
         return view('livewire.public-products', [
-            'products' => Product::with('category')->paginate(2),
+            'products' => Product::with('category')->paginate(6),
         ]);
     }
 }
